@@ -1,7 +1,12 @@
-import Grub from './Grub'
+import Grub from './Grub.js';
 
-class Bee {
-  // TODO..
+class Bee extends Grub {
+  constructor () {
+  	super();
+  	this.age = 5;
+  	this.color = 'yellow';
+  	this.job = 'Keep on growing';
+  }
 };
 
 export default Bee;
